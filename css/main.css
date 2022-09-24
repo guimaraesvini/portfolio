@@ -1,3 +1,31 @@
+nav {
+  text-transform: uppercase;
+}
+nav a {
+  color: white !important;
+  cursor: pointer;
+}
+
 .navbar-collapse {
   flex-grow: inherit;
+}
+
+.navbar-brand img {
+  width: 45%;
+}
+
+#main-banner {
+  color: white;
+}
+#main-banner .main-banner-foto {
+  padding: 0;
+}
+#main-banner .main-banner-info {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */

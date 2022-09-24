@@ -1,3 +1,16 @@
+nav{
+    text-transform: uppercase;
+    a{
+        color: white!important;
+        cursor: pointer;
+    }
+}
+
 .navbar-collapse{
     flex-grow: inherit;
+}
+.navbar-brand{
+    img{
+        width: 45%;
+    }
 }
