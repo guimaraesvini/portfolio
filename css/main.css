@@ -38,9 +38,18 @@ nav {
   text-transform: uppercase;
   font-family: "myriad_probold";
 }
-nav a {
+nav li {
+  padding: 10px 30px;
+}
+nav li a {
   color: white !important;
   cursor: pointer;
+  transition: all 0.5s ease;
+  border-bottom: 3px solid transparent;
+}
+nav li a:hover {
+  transition: all 0.5s ease;
+  border-bottom: 3px solid #b20016;
 }
 
 .navbar-collapse {
@@ -61,6 +70,16 @@ nav a {
   align-self: center;
   display: flex;
   justify-content: center;
+}
+#main-banner .main-banner-info button {
+  border: none;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 10px 10px 10px 0;
+}
+#main-banner .main-banner-info button a {
+  text-decoration: none;
+  color: black;
 }
 
 #about-me {
@@ -179,6 +198,9 @@ footer h2::after {
   background-color: #b20016;
   display: block;
   margin: 5px 0;
+}
+footer ul {
+  padding: 0;
 }
 footer ul li {
   list-style: none;
