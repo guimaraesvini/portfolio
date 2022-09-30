@@ -21,6 +21,16 @@ footer{
         li{
             list-style: none;
             display: inline-block;
+            a{
+                color: inherit;
+                &:hover{
+                    color: #b20016;
+                }
+            }
+            i{
+                font-size: 36px;
+                margin: 0px 4px;
+            }
         }
     }
 }

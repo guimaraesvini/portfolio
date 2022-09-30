@@ -44,11 +44,9 @@ nav li {
 nav li a {
   color: white !important;
   cursor: pointer;
-  transition: all 0.5s ease;
   border-bottom: 3px solid transparent;
 }
 nav li a:hover {
-  transition: all 0.5s ease;
   border-bottom: 3px solid #b20016;
 }
 
@@ -206,7 +204,21 @@ footer ul li {
   list-style: none;
   display: inline-block;
 }
+footer ul li a {
+  color: inherit;
+}
+footer ul li a:hover {
+  color: #b20016;
+}
+footer ul li i {
+  font-size: 36px;
+  margin: 0px 4px;
+}
 
 body {
   background-color: black;
+}
+
+:hover, a {
+  transition: all 0.3s ease;
 }/*# sourceMappingURL=main.css.map */
