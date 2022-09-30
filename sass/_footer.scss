@@ -1,0 +1,25 @@
+footer{
+    .row{
+        align-items: center;
+        height: 100px;
+    }
+    color: white;
+    h2{
+        font-family: 'myriad_probold';
+        text-transform: uppercase;
+        &::after{
+            content: '';
+            width: 120px;
+            height: 4px;
+            background-color: #b20016;
+            display: block;
+            margin:  5px 0;
+        }
+    }
+    ul{
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+    }
+}
