@@ -8,7 +8,7 @@ nav{
             cursor: pointer;
             border-bottom: 3px solid transparent;
             &:hover{
-                border-bottom: 3px solid #b20016;
+                border-bottom: 3px solid $main-color;
             }
         }
     }
@@ -21,4 +21,9 @@ nav{
     img{
         width: 45%;
     }
+}
+
+.fixed-top{
+    background-color: #000000d9;
+    backdrop-filter: blur(5px);
 }

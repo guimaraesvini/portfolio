@@ -1,3 +1,6 @@
+$main-color: #b20016;
+
+@import "mixins";
 @import "fonts";
 @import "nav";
 @import "main-banner";
@@ -13,3 +16,5 @@ body{
 :hover, a{
     transition: all 0.3s ease;
 }
+
+

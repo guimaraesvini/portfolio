@@ -6,21 +6,9 @@
         align-items: center;
     }
     h2{
-        text-transform: uppercase;
-        font-family: 'myriad_probold';
-        &::after{
-            content: '';
-            width: 120px;
-            height: 4px;
-            background-color: #b20016;
-            display: block;
-            margin:  10px auto;
-        }
+        @include title-separator;
     }
     p{
-        font-family: 'myriad_proregular';
-        max-width: 50%;
-        text-align: center;
-        padding-top: 10px;
+        @include comum-p;
     }
 }

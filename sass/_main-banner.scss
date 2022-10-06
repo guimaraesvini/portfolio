@@ -2,7 +2,7 @@
     color: white;
     .main-banner-foto{
         background-size: cover;
-        background-image: url(..//imgs/vini-profile);
+        background-image: url(..//imgs/vini-profile.png);
         height: 100vh;
         // background-attachment: fixed;
         background-repeat: no-repeat;
@@ -19,7 +19,7 @@
         }
         font-family: 'myriad_probold';
         code{
-            color: #b20016;
+            color: $main-color;
         }
     }
     .main-banner-info{
