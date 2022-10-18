@@ -1,7 +1,13 @@
 footer{
-    .row{
+    .footer-infos{
+        display: flex;
         align-items: center;
-        height: 100px;
+        justify-content: space-evenly;
+        padding: 20px 0; 
+        flex-direction: column;
+        @media (min-width: 768px){
+            flex-direction: row;
+        }
     }
     color: white;
     h2{
