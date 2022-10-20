@@ -75,7 +75,10 @@
 
 // =====MODAL =======
 .modal-dialog {
-    max-width: 80%;
+    padding-top: 20px;
+    @media (min-width: 768px){
+        max-width: 80%;
+    }
 }
 
 .btn-close {

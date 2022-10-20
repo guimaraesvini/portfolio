@@ -1,21 +1,32 @@
 #main-banner{
     color: white;
     .main-banner-foto{
-        background-size: cover;
+        background-size: contain;
         background-image: url(..//imgs/vini-profile.png);
-        height: 100vh;
-        // background-attachment: fixed;
+        height: 50vh;
+        background-attachment: fixed;
         background-repeat: no-repeat;
+         @media (min-width: 768px) { 
+            height: 50vh;
+          }
+          @media (min-width: 992px) { 
+            background-size: 58%;
+            height: 75vh;
+            background-position: left;
+            }
+            @media (min-width: 1200px) { 
+                background-size: contain;
+                height: 100vh;
+             }
+        
     }
     h1{
-        font-size: 7.5rem;
-        line-height: 0;
-        :first-child{
-            font-size: 2.6rem;
-            line-height: 3.5;
-        }
-        :last-child{
-            font-size: 2.6rem;
+        :first-child, :last-child{
+              padding-left: 5px;
+         }
+        .iam{
+            font-size: 8rem;
+            line-height: 0.8;
         }
         font-family: 'myriad_probold';
         code{
@@ -26,6 +37,9 @@
         align-self: center;
         display: flex;
         justify-content: center;
+        p{
+            font-size: 1.2rem;
+        }
         button{
             border: none;
             background-color: white;
