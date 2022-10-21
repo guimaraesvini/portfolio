@@ -19,7 +19,10 @@ nav{
 }
 .navbar-brand{
     img{
-        width: 45%;
+        width: 110px;
+        @media (min-width: 576px) { 
+            width: 45%;
+         }
     }
 }
 

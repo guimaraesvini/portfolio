@@ -55,7 +55,12 @@ nav li a:hover {
 }
 
 .navbar-brand img {
-  width: 45%;
+  width: 110px;
+}
+@media (min-width: 576px) {
+  .navbar-brand img {
+    width: 45%;
+  }
 }
 
 .fixed-top {
@@ -69,7 +74,7 @@ nav li a:hover {
 #main-banner .main-banner-foto {
   background-size: contain;
   background-image: url(..//imgs/vini-profile.png);
-  height: 60vh;
+  height: 55vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -109,7 +114,7 @@ nav li a:hover {
 }
 @media (min-width: 1400px) {
   #main-banner h1 :first-child, #main-banner h1 :last-child {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 @media (min-width: 992px) {
@@ -126,7 +131,7 @@ nav li a:hover {
 }
 @media (min-width: 1400px) {
   #main-banner h1 .iam {
-    font-size: 7rem;
+    font-size: 6.5rem;
   }
 }
 #main-banner h1 code {
@@ -136,7 +141,7 @@ nav li a:hover {
   align-self: center;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 20px 40px 30px 40px;
 }
 #main-banner .main-banner-info p {
   font-size: 1rem;
