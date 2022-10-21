@@ -196,9 +196,14 @@ nav li a:hover {
 }
 #about-me p {
   font-family: "myriad_proregular";
-  max-width: 50%;
+  max-width: 80%;
   text-align: center;
   padding-top: 10px;
+}
+@media (min-width: 576px) {
+  #about-me p {
+    width: 50%;
+  }
 }
 #about-me ul {
   padding: 0 50px;
@@ -240,9 +245,14 @@ nav li a:hover {
 }
 #design-projects p {
   font-family: "myriad_proregular";
-  max-width: 50%;
+  max-width: 80%;
   text-align: center;
   padding-top: 10px;
+}
+@media (min-width: 576px) {
+  #design-projects p {
+    width: 50%;
+  }
 }
 #design-projects .thumbs-projects {
   display: flex;
@@ -384,9 +394,14 @@ nav li a:hover {
 }
 #code-projects p {
   font-family: "myriad_proregular";
-  max-width: 50%;
+  max-width: 80%;
   text-align: center;
   padding-top: 10px;
+}
+@media (min-width: 576px) {
+  #code-projects p {
+    width: 50%;
+  }
 }
 
 footer {
