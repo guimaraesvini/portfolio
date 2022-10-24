@@ -341,7 +341,7 @@ nav li a:hover {
 
 #code-projects {
   background-color: #f8f8f8;
-  padding: 100px 0 80px 0;
+  padding: 100px 0 50px 0;
 }
 #code-projects .code-projects-text {
   display: flex;
@@ -447,6 +447,29 @@ footer ul li a:hover {
 footer ul li i {
   font-size: 36px;
   margin: 0px 4px;
+}
+
+#arrow {
+  background-color: #f8f8f8;
+}
+#arrow i {
+  color: black;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+#arrow i:hover {
+  color: #b20016;
+}
+#arrow a {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #arrow a {
+    justify-content: end;
+    padding-right: 100px;
+  }
 }
 
 body {
