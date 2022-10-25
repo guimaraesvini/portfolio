@@ -1,3 +1,29 @@
+[data-anime] {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+[data-anime=left] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime=right] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime=button] {
+  transform: translate3d(0, 50px, 0);
+}
+
+[data-anime=top] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
 @font-face {
   font-family: "myriad_probold";
   src: url("../fonts/myriad_pro_bold-webfont.woff2") format("woff2"), url("../fonts/myriad_pro_bold-webfont.woff") format("woff");
@@ -18,7 +44,7 @@
 }
 @font-face {
   font-family: "myriad_probold";
-  src: url("myriad_pro_bold-webfont.woff2") format("woff2"), url("myriad_pro_bold-webfont.woff") format("woff");
+  src: url("../fonts/myriad_pro_bold-webfont.woff2") format("woff2"), url("../fonts/myriad_pro_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -309,6 +335,10 @@ nav li a:hover {
 .btn:focus, .btn:active:focus, .btn.active:focus,
 .btn.focus, .btn:active.focus, .btn.active.focus {
   box-shadow: none;
+}
+
+.modal-content {
+  text-align: center;
 }
 
 .modal-dialog {
