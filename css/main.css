@@ -1,9 +1,15 @@
+[data-anime] {
+  opacity: 0;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
 [data-anime=left] {
-  transform: translate3d(-50px, 0, 0);
+  transform: translate3d(-100px, 0, 0);
 }
 
 [data-anime=right] {
-  transform: translate3d(-50px, 0, 0);
+  transform: translate3d(100px, 0, 0);
 }
 
 [data-anime=button] {
