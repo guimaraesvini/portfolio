@@ -505,6 +505,7 @@ footer ul li i {
 
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 :hover, a {
