@@ -258,6 +258,10 @@ nav li a:hover {
   flex-direction: column;
   align-items: center;
 }
+#design-projects .design-projects-text a {
+  text-decoration: none;
+  color: inherit;
+}
 #design-projects h2 {
   text-transform: uppercase;
   font-family: "myriad_probold";
@@ -375,6 +379,16 @@ nav li a:hover {
   padding: 100px 0 50px 0;
 }
 #code-projects .code-projects-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#code-projects .code-projects-text a {
+  text-decoration: none;
+  color: inherit;
+}
+#code-projects .txt-legal {
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
