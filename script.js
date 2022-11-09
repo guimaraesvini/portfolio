@@ -20,5 +20,20 @@ window.addEventListener("scroll", function () {
 
 // ===== MAIN BANNER TEXT ANIMATIONS =======
 
-const titulo = document.querySelector("h1");
-console.log("title", titulo);
+// const titulo = document.querySelector("h1");
+// console.log("title", titulo);
+
+
+// ===== Toogle menu mobile =======
+// $(document).ready(function(){
+//   $('.nav-link').on('click', function(){
+//     $('.navbar-collapse').toggle();
+//   })
+// })
+
+// ===== ToolTIp =======
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
