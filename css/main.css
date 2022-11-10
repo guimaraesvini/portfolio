@@ -461,6 +461,12 @@ footer .footer-infos {
     flex-direction: row;
   }
 }
+footer .footer-infos a {
+  color: white;
+}
+footer .footer-infos a:hover {
+  color: white;
+}
 footer h2 {
   font-family: "myriad_probold";
   text-transform: uppercase;
@@ -521,4 +527,5 @@ body {
 
 :hover, a {
   transition: all 0.3s ease;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

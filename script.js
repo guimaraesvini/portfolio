@@ -20,8 +20,16 @@ window.addEventListener("scroll", function () {
 
 // ===== MAIN BANNER TEXT ANIMATIONS =======
 
-// const titulo = document.querySelector("h1");
-// console.log("title", titulo);
+function typeWriter(element){
+  const textArray = element.innerHTML.split('');
+  element.innerHTML = ''
+  textArray.forEach((letra, i) => {
+    setTimeout(() => element.innerHTML += letra, 180 * i)
+  })
+}
+
+const titulo = document.querySelector(".iam");
+typeWriter(titulo)
 
 
 // ===== Toogle menu mobile =======
